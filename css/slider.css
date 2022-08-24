@@ -1,0 +1,16 @@
+#slider {
+    font-family: 'Oswald', sans-serif;
+    background-color: #051644;
+    color: white;
+    height: 400px;
+}
+
+#slider .slide-text {
+    position: absolute;
+    margin: 140px 0 0 180px;
+}
+#slider .slide-img {
+    position: absolute;
+    width: 550px;
+    margin: 10px 0 0 530px;
+}

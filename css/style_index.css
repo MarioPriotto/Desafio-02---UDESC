@@ -1,0 +1,136 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:ital@0;1&display=swap'); */
+
+body {
+    margin: 0 auto; 
+}
+
+.container {
+    background-color: rgb(241, 241, 241);
+}
+
+#main-header .container {
+    background-color: rgb(5, 22, 68); 
+}
+
+#main-header img {
+    padding: 10px 0px 0px 65px;
+    width: 50%;
+}
+
+#links-right {
+    color: white;
+    padding: 15px 0px 0px 0px;
+    font-size: 13px;
+}
+
+#links-right li {
+    text-align: center;
+}
+
+
+
+
+/* Minha proposta de css para o código em questão */
+.slide {
+    background-color: rgb(5, 22, 68);
+}
+
+.slide-title,
+.slide-h1,
+.slide-description {
+    color: white;
+    padding-left: 35%;
+}
+
+.slide-title {
+    padding-top: 15%;
+}
+
+/* Proposta sugerida pelo professor para o css do código em questão
+#slider {
+    font-family: 'Oswald', sans-serif;
+    background-color: #051644;
+    color: white;
+    height: 400px;
+}
+
+#slider .slide-text {
+    position: absolute;
+    margin: 140px 0 0 180px;
+}
+#slider .slide-img {
+    position: absolute;
+    width: 550px;
+    margin: 10px 0 0 530px;
+}
+*/
+
+
+
+
+
+.article {
+    margin: 0px 40px 0px 40px;
+    padding: 10px;
+    background-color: white;
+}
+
+.product-list [class*="col-"] {
+    padding: 5px;
+}
+
+i {
+    padding: 7px;
+}
+
+.article-header {
+    font-weight: bold;
+    padding: 20px 0 10px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.product-list-price {
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.product-list-title {
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+figcaption {
+    position: absolute;
+    margin: -35px 0 0 15px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+#main-footer {
+    padding: 30px 40px 30px 40px;
+    background-color: rgb(241, 241, 241);
+    font-size: 10px;
+}
+
+#main-footer .container {
+    padding-top: 25px;
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+#main-footer #footer-links li {
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+#main-footer #social-medias li {
+    text-align: right;
+    transition: all 0.25s;
+    color: black;
+}
+
+#main-footer #social-medias i:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
